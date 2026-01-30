@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TBP03R2-350-03BE")(type "KiCad")(uri "${KIPRJMOD}/terminal_blocks/TBP03R2_350_03BE/TBP03R2-350-03BE.kicad_sym")(options "")(descr ""))
+  (lib (name "TBP03R2-350-04BE")(type "KiCad")(uri "${KIPRJMOD}/terminal_blocks/TBP03R2_350_04BE/TBP03R2-350-04BE.kicad_sym")(options "")(descr ""))
+  (lib (name "TBP03R2-350-05BE")(type "KiCad")(uri "${KIPRJMOD}/terminal_blocks/TBP03R2_350_05BE/TBP03R2-350-05BE.kicad_sym")(options "")(descr ""))
+)
