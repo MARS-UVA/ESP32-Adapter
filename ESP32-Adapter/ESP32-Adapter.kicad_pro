@@ -506,7 +506,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../../../Downloads/ESP32-Adapter.step",
       "svg": "",
       "vrml": ""
     },
