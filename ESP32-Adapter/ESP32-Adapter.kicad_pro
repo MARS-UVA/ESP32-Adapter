@@ -189,7 +189,8 @@
       ],
       "track_widths": [
         0.0,
-        0.2032
+        0.2032,
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -447,7 +448,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "warning",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
@@ -514,7 +515,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "C:\\Users\\auste\\Downloads\\ESP32-Adapter.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
