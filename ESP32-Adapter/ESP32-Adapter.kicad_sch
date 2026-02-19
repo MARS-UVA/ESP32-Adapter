@@ -2562,6 +2562,16 @@
 		)
 		(uuid "25c26407-65bf-4596-8782-f4acccfddd39")
 	)
+	(text "~15.2 V\n"
+		(exclude_from_sim no)
+		(at 420.878 157.734 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "42fefee9-e6b1-44a4-bf5f-0b245a257caf")
+	)
 	(text "vash the stampede\n"
 		(exclude_from_sim no)
 		(at 291.338 162.306 0)
@@ -2572,6 +2582,16 @@
 			)
 		)
 		(uuid "5d132dff-1446-42f4-833f-99dba077eae0")
+	)
+	(text "Forward voltage drop: \n0.1 V @ 10mA\n0.22V @ 100 mA\n0.34 V @ 1 A"
+		(exclude_from_sim no)
+		(at 368.046 156.464 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7d4339bc-c704-4a65-be35-6369767f03c0")
 	)
 	(text "Vcc"
 		(exclude_from_sim no)
@@ -2603,6 +2623,16 @@
 			(justify right)
 		)
 		(uuid "8b984866-bb60-428e-a13a-e41b6d6ff969")
+	)
+	(text "I_Adj = 50 uA"
+		(exclude_from_sim no)
+		(at 380.746 187.452 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bb9bfda5-cfb9-4a71-bc1b-0f52aa501331")
 	)
 	(text "PDP Step-Down\n"
 		(exclude_from_sim no)
@@ -2656,6 +2686,16 @@
 			(justify right)
 		)
 		(uuid "f3109763-8bd4-48ca-ae7a-8de42193558f")
+	)
+	(text "VO = 1.25 * (1 + R1/R2) + I_Adj * R2 = 3.5 V\n"
+		(exclude_from_sim no)
+		(at 393.446 184.912 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f4b5a439-2e5d-4018-83a1-9cdd3a5141da")
 	)
 	(text "CANPal\n"
 		(exclude_from_sim no)
@@ -2721,6 +2761,10 @@
 		(uuid "3053ef52-9500-4f35-9c1f-31472a3a274c")
 	)
 	(no_connect
+		(at 373.38 251.46)
+		(uuid "38c71bfe-2909-4526-901e-c9254d830e5a")
+	)
+	(no_connect
 		(at 316.23 219.71)
 		(uuid "74286f30-6925-4591-a9a8-18a02e8887a0")
 	)
@@ -2731,6 +2775,10 @@
 	(no_connect
 		(at 265.43 222.25)
 		(uuid "a4b39ad3-9adc-40ac-8f91-1f4fa961eb35")
+	)
+	(no_connect
+		(at 373.38 248.92)
+		(uuid "a910102d-d49c-4d18-a7a3-c7386af0b0b5")
 	)
 	(no_connect
 		(at 210.82 234.95)
@@ -4407,7 +4455,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "390"
+		(property "Value" "430"
 			(at 393.7 152.3999 0)
 			(effects
 				(font
@@ -6162,14 +6210,6 @@
 		(fields_autoplaced yes)
 		(uuid "f1f7a9d4-3c8f-47b8-bfb0-e3bc344b237d")
 		(property "Reference" "U2"
-			(at 391.16 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM317_TO-263"
 			(at 391.16 172.72 0)
 			(effects
 				(font
@@ -6177,7 +6217,15 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+		(property "Value" "LM317DCYR"
+			(at 391.16 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
 			(at 391.16 175.26 0)
 			(effects
 				(font
@@ -6196,7 +6244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.5A 35V Adjustable Linear Regulator, TO-263"
+		(property "Description" "1.5A 35V Adjustable Linear Regulator, SOT-223"
 			(at 391.16 168.91 0)
 			(effects
 				(font
@@ -6315,7 +6363,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "footprints:USC_TOS"
 			(at 368.3 168.91 0)
 			(effects
 				(font
@@ -6324,7 +6372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/CUS15S30_datasheet_en_20140407.pdf?did=13655&prodName=CUS15S30"
 			(at 368.3 168.91 0)
 			(effects
 				(font
