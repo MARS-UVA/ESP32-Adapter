@@ -3289,6 +3289,12 @@
 		(uuid "3497b822-2e2e-4d09-89b7-ff9345114f90")
 	)
 	(junction
+		(at 218.44 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6901ce83-6296-4266-9489-f8b65e845cc3")
+	)
+	(junction
 		(at 281.94 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3299,6 +3305,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b01dcb52-d038-479a-ae8f-a1204112bf8e")
+	)
+	(junction
+		(at 218.44 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2f5cee5-e9cf-4b95-8dd4-560bbd58268f")
 	)
 	(junction
 		(at 275.59 142.24)
@@ -3398,6 +3410,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 172.72) (xy 218.44 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "094a3a19-f8be-404e-bf64-0d901acda619")
+	)
+	(wire
+		(pts
 			(xy 290.83 128.27) (xy 290.83 129.54)
 		)
 		(stroke
@@ -3415,6 +3437,16 @@
 			(type default)
 		)
 		(uuid "1329e333-65a2-4b2a-baaf-1001a8756dc3")
+	)
+	(wire
+		(pts
+			(xy 226.06 175.26) (xy 218.44 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15d16919-1713-4ba2-a588-9947f43fcdb6")
 	)
 	(wire
 		(pts
@@ -3449,6 +3481,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 180.34) (xy 226.06 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57c9cf08-e992-4c13-b54d-d11087cae246")
+	)
+	(wire
+		(pts
 			(xy 257.81 214.63) (xy 273.05 214.63)
 		)
 		(stroke
@@ -3466,6 +3508,16 @@
 			(type default)
 		)
 		(uuid "65ee2ec3-5a29-4fc9-acc6-851489b7518d")
+	)
+	(wire
+		(pts
+			(xy 218.44 177.8) (xy 212.09 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69538007-fc86-48a3-a83b-4480489aa16b")
 	)
 	(wire
 		(pts
@@ -3501,6 +3553,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 177.8) (xy 218.44 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "803fc4d7-3503-4d1d-812e-efad116ad1ac")
+	)
+	(wire
+		(pts
 			(xy 262.89 142.24) (xy 264.16 142.24)
 		)
 		(stroke
@@ -3530,6 +3592,16 @@
 			(type default)
 		)
 		(uuid "89759d73-9971-46cd-bc75-d95efa05888c")
+	)
+	(wire
+		(pts
+			(xy 218.44 177.8) (xy 218.44 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b5e496b-92c2-42d4-a27e-d3826bc922b6")
 	)
 	(wire
 		(pts
@@ -3613,6 +3685,26 @@
 			(type default)
 		)
 		(uuid "b9a55496-d4b9-4e7e-9ada-7969f51ccb55")
+	)
+	(wire
+		(pts
+			(xy 218.44 175.26) (xy 212.09 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc0ece71-5e6f-4707-89a7-5d284b84e210")
+	)
+	(wire
+		(pts
+			(xy 226.06 172.72) (xy 218.44 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2e27fe5-bd7c-43cd-86eb-0fd46579368f")
 	)
 	(wire
 		(pts
@@ -3705,7 +3797,7 @@
 		(uuid "61bed830-1c42-4940-aee5-7d45ca353c0b")
 	)
 	(label "IMU SCL"
-		(at 212.09 175.26 0)
+		(at 226.06 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3725,7 +3817,7 @@
 		(uuid "63b2799d-9b85-48ac-89e9-0f8d0e8993da")
 	)
 	(label "IMU SDA"
-		(at 212.09 177.8 0)
+		(at 226.06 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3775,7 +3867,7 @@
 		(uuid "aca5e241-2373-4a21-884b-7ce5343895b0")
 	)
 	(label "I2C SDA"
-		(at 222.25 217.17 0)
+		(at 226.06 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3805,7 +3897,7 @@
 		(uuid "bb703d0e-9d95-4d40-a17a-5cf030d2bfe1")
 	)
 	(label "I2C SCL"
-		(at 222.25 214.63 0)
+		(at 226.06 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
