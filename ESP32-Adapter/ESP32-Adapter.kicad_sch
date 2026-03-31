@@ -3674,6 +3674,16 @@
 		)
 		(uuid "2f47f779-05d5-4e65-b5e0-c9bdf3614e74")
 	)
+	(label "IMU SCL"
+		(at 115.57 213.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a6617d9-5d39-4382-bfa1-0a7a4b767b7a")
+	)
 	(label "A2"
 		(at 111.76 125.73 0)
 		(effects
@@ -3684,6 +3694,46 @@
 		)
 		(uuid "4db7aac5-bb39-4c18-83e8-ef0f9f40944e")
 	)
+	(label "IMU SDA"
+		(at 115.57 215.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61bed830-1c42-4940-aee5-7d45ca353c0b")
+	)
+	(label "IMU SCL"
+		(at 212.09 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "635cb79b-c800-4bc3-b4aa-2f85fd0d5fe2")
+	)
+	(label "CAN RX"
+		(at 212.09 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63b2799d-9b85-48ac-89e9-0f8d0e8993da")
+	)
+	(label "IMU SDA"
+		(at 212.09 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84abb731-b194-4cf8-af42-9ad8c3c41e49")
+	)
 	(label "B1"
 		(at 161.29 142.24 180)
 		(effects
@@ -3693,16 +3743,6 @@
 			(justify right bottom)
 		)
 		(uuid "9486e094-9385-4b71-8b74-2c060003caef")
-	)
-	(label "I2C SCL"
-		(at 212.09 175.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "95fc9215-dd50-43e7-80c4-779811880f7e")
 	)
 	(label "I2C SDA"
 		(at 273.05 219.71 180)
@@ -3724,16 +3764,6 @@
 		)
 		(uuid "9f9577f0-79ed-4b40-8cc7-fb4a5f596200")
 	)
-	(label "CAN TX"
-		(at 212.09 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a0b04b25-b9ca-454b-95a0-c7689ea9b394")
-	)
 	(label "B2"
 		(at 161.29 144.78 180)
 		(effects
@@ -3743,6 +3773,16 @@
 			(justify right bottom)
 		)
 		(uuid "aca5e241-2373-4a21-884b-7ce5343895b0")
+	)
+	(label "I2C SDA"
+		(at 222.25 217.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4529ac2-12b7-4c08-96ca-994837b97200")
 	)
 	(label "WS2812"
 		(at 212.09 190.5 0)
@@ -3764,15 +3804,15 @@
 		)
 		(uuid "bb703d0e-9d95-4d40-a17a-5cf030d2bfe1")
 	)
-	(label "CAN RX"
-		(at 212.09 167.64 0)
+	(label "I2C SCL"
+		(at 222.25 214.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c243d206-77af-4e59-900a-2b017bae192d")
+		(uuid "c7b6c031-e067-40df-9c10-a39775a63569")
 	)
 	(label "I2C SCL"
 		(at 273.05 217.17 180)
@@ -3804,16 +3844,6 @@
 		)
 		(uuid "d7c76e57-93c5-4169-8e23-0bc68d48f812")
 	)
-	(label "I2C SDA"
-		(at 212.09 177.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "de3b74b5-bc83-4fa4-b504-10cb6af7b92a")
-	)
 	(label "CAN TX"
 		(at 110.49 168.91 0)
 		(effects
@@ -3823,6 +3853,16 @@
 			(justify left bottom)
 		)
 		(uuid "e05f83c1-114c-44ff-affc-2c2cb341b2a2")
+	)
+	(label "CAN TX"
+		(at 212.09 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea27b3f6-9e74-457b-aa60-752715f551ca")
 	)
 	(label "IDXA"
 		(at 111.76 120.65 0)
