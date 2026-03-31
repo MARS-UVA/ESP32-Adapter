@@ -1,4 +1,4 @@
-27356361971788716
+27363461206854681
 Audio_Module
 INA219 Breakout
 
@@ -34313,6 +34313,20 @@ Surface mounted pin header SMD 2x40 1.00mm double row
 0
 80
 80
+Connector_PinHeader_1.00mm
+Untitled
+
+
+0
+0
+0
+Connector_PinHeader_1.00mm
+Untitled_1
+
+
+0
+0
+0
 Connector_PinHeader_1.27mm
 PinHeader_1x01_P1.27mm_Horizontal
 Through hole angled pin header, 1x01, 1.27mm pitch, 4.0mm pin length, single row
@@ -40151,6 +40165,20 @@ Surface mounted pin header SMD 2x40 2.54mm double row
 0
 80
 80
+Connector_PinHeader_2.54mm
+Untitled
+
+
+0
+0
+0
+Connector_PinHeader_2.54mm
+Untitled_1
+
+
+0
+16
+8
 Connector_PinSocket_1.00mm
 PinSocket_1x02_P1.00mm_Vertical
 Through hole straight socket strip, 1x02, 1.00mm pitch, single row (https://gct.co/files/drawings/bc065.pdf), script generated
