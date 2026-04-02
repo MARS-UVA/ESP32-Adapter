@@ -1,4 +1,4 @@
-27365239076338923
+27367014166837669
 Audio_Module
 INA219 Breakout
 
@@ -38219,6 +38219,13 @@ Surface mounted pin header SMD 2x40 2.00mm double row
 0
 80
 80
+Connector_PinHeader_2.54mm
+ICM-42670
+
+
+0
+16
+16
 Connector_PinHeader_2.54mm
 PinHeader_1x01_P2.54mm_Horizontal
 Through hole angled pin header, 1x01, 2.54mm pitch, 6mm pin length, single row
