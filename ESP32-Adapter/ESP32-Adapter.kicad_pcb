@@ -83,7 +83,7 @@
 		(tenting front back)
 		(grid_origin 115.5709 82)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(layerselection 0x00000000_00000000_55555555_5755f577)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions yes)
@@ -119,7 +119,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "v1.0_Gerbers/")
+			(outputdirectory "v3.0_Gerbers/")
 		)
 	)
 	(net 0 "")
