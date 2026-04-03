@@ -504,7 +504,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "v1.0_Gerbers/",
+      "plot": "v3.0_Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "3D-models/ESP32-Adapter.step",
