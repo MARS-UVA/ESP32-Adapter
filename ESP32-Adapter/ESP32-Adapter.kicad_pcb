@@ -15538,8 +15538,8 @@
 			(justify left)
 		)
 	)
-	(gr_text "ESP Stampede"
-		(at 116.6209 112.5 0)
+	(gr_text "ESP Stampede (C5)"
+		(at 119.2709 112.8 0)
 		(layer "F.SilkS")
 		(uuid "607bfd9b-a8d2-4232-90af-cc18b93a3c8a")
 		(effects
