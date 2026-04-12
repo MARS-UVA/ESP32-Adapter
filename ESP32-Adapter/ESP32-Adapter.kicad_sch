@@ -3291,12 +3291,6 @@
 		(uuid "d2f5cee5-e9cf-4b95-8dd4-560bbd58268f")
 	)
 	(junction
-		(at 223.52 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dafd7558-6f04-4125-9f5c-63b0f8cdd362")
-	)
-	(junction
 		(at 224.79 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3483,7 +3477,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 182.88) (xy 212.09 182.88)
+			(xy 212.09 182.88) (xy 223.52 182.88)
 		)
 		(stroke
 			(width 0)
@@ -3718,16 +3712,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 182.88) (xy 223.52 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99ea1590-afea-4eab-8cc6-52baeb249644")
-	)
-	(wire
-		(pts
 			(xy 271.78 142.24) (xy 275.59 142.24)
 		)
 		(stroke
@@ -3868,16 +3852,6 @@
 		)
 		(uuid "e1a73e92-8cb4-472d-a88d-f6f392f0dba7")
 	)
-	(label "A1"
-		(at 224.79 182.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "097e5ad1-4f92-4b62-9cdb-46688c82a22f")
-	)
 	(label "CAN RX"
 		(at 212.09 157.48 0)
 		(effects
@@ -3928,6 +3902,16 @@
 		)
 		(uuid "4db7aac5-bb39-4c18-83e8-ef0f9f40944e")
 	)
+	(label "A2"
+		(at 228.6 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52ec4253-0c45-476a-9928-e142b0baf77d")
+	)
 	(label "IMU SDA"
 		(at 115.57 215.9 0)
 		(effects
@@ -3958,15 +3942,15 @@
 		)
 		(uuid "7697b82d-5bff-4e2a-a767-a9d4d5735216")
 	)
-	(label "A2"
-		(at 212.09 180.34 0)
+	(label "A1"
+		(at 223.52 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "825ef463-56aa-41f4-8d9c-24d1e6908233")
+		(uuid "77881007-4d12-4792-8fe0-832a3d010b4b")
 	)
 	(label "IMU SDA"
 		(at 234.95 177.8 0)
@@ -4078,6 +4062,16 @@
 		)
 		(uuid "cfcaafb9-72d8-401f-b51c-9cba04f48fb3")
 	)
+	(label "B2"
+		(at 236.22 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2e3889f-1f6f-4173-9588-854077d11ac8")
+	)
 	(label "WS2812"
 		(at 269.24 182.88 180)
 		(effects
@@ -4097,6 +4091,16 @@
 			(justify left bottom)
 		)
 		(uuid "d7c76e57-93c5-4169-8e23-0bc68d48f812")
+	)
+	(label "A2"
+		(at 212.09 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db85d620-8c4d-4edc-b868-71eee5cfc013")
 	)
 	(label "CAN TX"
 		(at 110.49 168.91 0)
@@ -5345,6 +5349,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 236.22 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "660ad598-811b-4142-a458-91f2052a79b4")
+		(property "Reference" "C6"
+			(at 240.03 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 240.03 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 237.1852 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 236.22 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "87898202-de1a-495e-9c0d-97b6ab0f756f")
+		)
+		(pin "1"
+			(uuid "369579ae-21cf-475f-b9b4-7c54c8947419")
+		)
+		(instances
+			(project "ESP32-Adapter"
+				(path "/69a61e70-b602-4412-b60e-1eedbaac8100"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
 		(at 106.68 123.19 180)
 		(unit 1)
@@ -6327,6 +6400,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 228.6 143.51 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af173d3f-8fda-4787-889a-50eef2f8e952")
+		(property "Reference" "#PWR022"
+			(at 228.6 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 232.41 145.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 228.6 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b192e56-6ab4-4c26-8db6-793877cabf36")
+		)
+		(instances
+			(project "ESP32-Adapter"
+				(path "/69a61e70-b602-4412-b60e-1eedbaac8100"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 261.62 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6694,6 +6833,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 236.22 158.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df726144-2021-4624-be51-5c9b1ca1e407")
+		(property "Reference" "#PWR023"
+			(at 236.22 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 236.22 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 236.22 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "401d8464-1de5-4541-bf18-d8d213b8518c")
+		)
+		(instances
+			(project "ESP32-Adapter"
+				(path "/69a61e70-b602-4412-b60e-1eedbaac8100"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 224.79 166.37 0)
 		(unit 1)
@@ -6966,6 +7172,75 @@
 			(project "ESP32-Adapter"
 				(path "/69a61e70-b602-4412-b60e-1eedbaac8100"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 228.6 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4bcfe29-1cf3-49d7-adda-6cb49155e7fb")
+		(property "Reference" "C5"
+			(at 232.41 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 232.41 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 229.5652 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 228.6 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "22630cc5-1dd4-407d-8de5-31b4a1300bed")
+		)
+		(pin "1"
+			(uuid "7b450519-769d-4e61-abed-1734128dc8ac")
+		)
+		(instances
+			(project "ESP32-Adapter"
+				(path "/69a61e70-b602-4412-b60e-1eedbaac8100"
+					(reference "C5")
 					(unit 1)
 				)
 			)
