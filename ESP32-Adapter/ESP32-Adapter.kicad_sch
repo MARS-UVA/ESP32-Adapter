@@ -3267,6 +3267,12 @@
 		(uuid "6901ce83-6296-4266-9489-f8b65e845cc3")
 	)
 	(junction
+		(at 153.035 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1dc4441-f2f1-4370-b93d-3f933a874e4b")
+	)
+	(junction
 		(at 281.94 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3283,6 +3289,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2f5cee5-e9cf-4b95-8dd4-560bbd58268f")
+	)
+	(junction
+		(at 223.52 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dafd7558-6f04-4125-9f5c-63b0f8cdd362")
 	)
 	(junction
 		(at 224.79 175.26)
@@ -3471,6 +3483,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 182.88) (xy 212.09 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2da96a2d-e137-4bb7-9ddb-8b3cbcc3349f")
+	)
+	(wire
+		(pts
 			(xy 224.79 175.26) (xy 227.33 175.26)
 		)
 		(stroke
@@ -3518,6 +3540,16 @@
 			(type default)
 		)
 		(uuid "438bdf35-67d5-452b-9b32-221e7ba76385")
+	)
+	(wire
+		(pts
+			(xy 149.86 142.24) (xy 153.035 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ad1288c-2d92-40ea-8d20-a3efcb0df2da")
 	)
 	(wire
 		(pts
@@ -3569,6 +3601,16 @@
 			(color 194 194 0 1)
 		)
 		(uuid "6981bf40-46e3-4132-a4d5-42a9c6d2f592")
+	)
+	(wire
+		(pts
+			(xy 153.035 142.24) (xy 161.29 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b906626-ed34-426a-b2f7-fab1f198fe6a")
 	)
 	(wire
 		(pts
@@ -3673,6 +3715,16 @@
 			(color 194 0 0 1)
 		)
 		(uuid "909afefa-de87-4cdb-ae95-dc4969a3962f")
+	)
+	(wire
+		(pts
+			(xy 224.79 182.88) (xy 223.52 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99ea1590-afea-4eab-8cc6-52baeb249644")
 	)
 	(wire
 		(pts
@@ -3817,7 +3869,7 @@
 		(uuid "e1a73e92-8cb4-472d-a88d-f6f392f0dba7")
 	)
 	(label "A1"
-		(at 212.09 182.88 0)
+		(at 224.79 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3937,7 +3989,7 @@
 		(uuid "86b9e430-70c1-46ca-92dd-60d367552a40")
 	)
 	(label "B1"
-		(at 161.29 142.24 180)
+		(at 149.86 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4885,6 +4937,140 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 153.035 149.86 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a5bece9-3593-47bc-9c06-1a56daf69874")
+		(property "Reference" "#PWR020"
+			(at 153.035 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.035 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.035 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.035 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.035 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "135e448f-e10b-4dcb-a45b-01cb002322f3")
+		)
+		(instances
+			(project "ESP32-Adapter"
+				(path "/69a61e70-b602-4412-b60e-1eedbaac8100"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 223.52 190.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fb3cb47-4bcc-4ccb-af00-0ee9c3c57110")
+		(property "Reference" "#PWR021"
+			(at 223.52 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 223.52 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12388768-a665-4940-949c-52f6da943ed2")
+		)
+		(instances
+			(project "ESP32-Adapter"
+				(path "/69a61e70-b602-4412-b60e-1eedbaac8100"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 217.17 170.18 0)
 		(unit 1)
@@ -5499,6 +5685,75 @@
 			(project "ESP32-Adapter"
 				(path "/69a61e70-b602-4412-b60e-1eedbaac8100"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 223.52 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8258243c-43f4-46c6-aab0-ef9cef76e118")
+		(property "Reference" "C4"
+			(at 227.33 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 227.33 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 224.4852 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 223.52 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a9f6345a-dedc-48bc-8b99-fa3febe209ce")
+		)
+		(pin "1"
+			(uuid "c63d9d58-4fa9-4fa3-bd90-b1ae74fdcaf5")
+		)
+		(instances
+			(project "ESP32-Adapter"
+				(path "/69a61e70-b602-4412-b60e-1eedbaac8100"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -6863,6 +7118,77 @@
 			(project ""
 				(path "/69a61e70-b602-4412-b60e-1eedbaac8100"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 153.035 146.05 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9696984-9c96-44f2-9cc8-2c9a12d094ec")
+		(property "Reference" "C3"
+			(at 149.225 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 149.225 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 152.0698 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.035 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 153.035 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fe923f53-dce8-4f4c-9440-d4e98dc16af9")
+		)
+		(pin "1"
+			(uuid "0768049f-1e2a-458d-a56c-4a42b975972b")
+		)
+		(instances
+			(project "ESP32-Adapter"
+				(path "/69a61e70-b602-4412-b60e-1eedbaac8100"
+					(reference "C3")
 					(unit 1)
 				)
 			)
