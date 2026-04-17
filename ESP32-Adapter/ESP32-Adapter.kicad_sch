@@ -3210,7 +3210,7 @@
 		)
 		(uuid "bd8a04e3-411f-4b2c-96fa-c82fe5a2d0e8")
 	)
-	(text "WS2812 LEDs"
+	(text "UART JST "
 		(exclude_from_sim no)
 		(at 251.46 167.64 0)
 		(effects
@@ -3331,6 +3331,10 @@
 		(uuid "1f5b50f5-7fce-404f-b778-d924b5887635")
 	)
 	(no_connect
+		(at 212.09 134.62)
+		(uuid "33553b5a-d6ca-4e4c-91ae-3086ec635c10")
+	)
+	(no_connect
 		(at 273.05 224.79)
 		(uuid "38c71bfe-2909-4526-901e-c9254d830e5a")
 	)
@@ -3341,6 +3345,10 @@
 	(no_connect
 		(at 161.29 157.48)
 		(uuid "3e3edbf1-ec87-415a-ae95-a3f3561d43f5")
+	)
+	(no_connect
+		(at 212.09 137.16)
+		(uuid "4014e87e-d63e-43ff-a26a-7f8ef0df9a25")
 	)
 	(no_connect
 		(at 212.09 200.66)
@@ -3363,10 +3371,6 @@
 		(uuid "8705d855-12b0-43cd-8dc8-1ab9bbc5aee7")
 	)
 	(no_connect
-		(at 212.09 137.16)
-		(uuid "8a057c95-de56-484a-b2b3-8e9f5a863031")
-	)
-	(no_connect
 		(at 212.09 144.78)
 		(uuid "8a3025d8-ca8f-453e-8be3-af4b0136f7de")
 	)
@@ -3387,16 +3391,16 @@
 		(uuid "a824ffc8-775e-4332-aa77-9a90d010bee0")
 	)
 	(no_connect
-		(at 212.09 134.62)
-		(uuid "a868011e-c286-4c3c-bfe9-7f8528871246")
-	)
-	(no_connect
 		(at 273.05 222.25)
 		(uuid "a910102d-d49c-4d18-a7a3-c7386af0b0b5")
 	)
 	(no_connect
 		(at 110.49 166.37)
 		(uuid "affe6717-3406-417a-beaa-e0bd33418693")
+	)
+	(no_connect
+		(at 212.09 195.58)
+		(uuid "b148af4e-a75e-4792-ae35-444c80f56bc0")
 	)
 	(no_connect
 		(at 110.49 163.83)
@@ -3753,6 +3757,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 182.88) (xy 269.24 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af7e7093-cd18-4a38-8ef1-3267e291ce0f")
+	)
+	(wire
+		(pts
 			(xy 281.94 142.24) (xy 283.21 142.24)
 		)
 		(stroke
@@ -3903,7 +3917,7 @@
 		(uuid "4db7aac5-bb39-4c18-83e8-ef0f9f40944e")
 	)
 	(label "A2"
-		(at 228.6 135.89 0)
+		(at 236.22 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3931,6 +3945,26 @@
 			(justify left bottom)
 		)
 		(uuid "635cb79b-c800-4bc3-b4aa-2f85fd0d5fe2")
+	)
+	(label "UART_TX"
+		(at 212.09 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6691c873-8a4e-4e90-8283-752db8b0ea81")
+	)
+	(label "UART_RX"
+		(at 212.09 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72ad5505-089e-41d2-a437-5f2540c934d4")
 	)
 	(label "IDX1"
 		(at 212.09 185.42 0)
@@ -3961,6 +3995,16 @@
 			(justify left bottom)
 		)
 		(uuid "84abb731-b194-4cf8-af42-9ad8c3c41e49")
+	)
+	(label "UART_RX"
+		(at 261.62 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "86604f3b-3004-450f-82a3-2d1fb4789d4b")
 	)
 	(label "B2"
 		(at 212.09 170.18 0)
@@ -4022,16 +4066,6 @@
 		)
 		(uuid "b4529ac2-12b7-4c08-96ca-994837b97200")
 	)
-	(label "WS2812"
-		(at 212.09 190.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b457db69-5059-4e36-8abd-fdf6af981af0")
-	)
 	(label "I2C SCL"
 		(at 234.95 175.26 0)
 		(effects
@@ -4072,16 +4106,6 @@
 		)
 		(uuid "d2e3889f-1f6f-4173-9588-854077d11ac8")
 	)
-	(label "WS2812"
-		(at 269.24 182.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d78b3cc7-c380-43c9-91b6-0fac483939d1")
-	)
 	(label "IDX2"
 		(at 111.76 135.89 0)
 		(effects
@@ -4111,6 +4135,16 @@
 			(justify left bottom)
 		)
 		(uuid "e05f83c1-114c-44ff-affc-2c2cb341b2a2")
+	)
+	(label "UART_TX"
+		(at 261.62 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e9a988cd-a346-4204-a740-201be06f599c")
 	)
 	(label "IDX1"
 		(at 111.76 120.65 0)
@@ -5497,72 +5531,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 261.62 180.34 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6d42bd30-f52d-4241-8b82-448bf8341921")
-		(property "Reference" "#PWR012"
-			(at 265.43 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 256.54 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 261.62 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ac04370-7ea1-47d9-8c5a-eb9962b41035")
-		)
-		(instances
-			(project "ESP32-Adapter"
-				(path "/69a61e70-b602-4412-b60e-1eedbaac8100"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 175.26 250.19 0)
 		(unit 1)
@@ -6400,7 +6368,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 228.6 143.51 0)
+		(at 236.22 143.51 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6409,7 +6377,7 @@
 		(dnp no)
 		(uuid "af173d3f-8fda-4787-889a-50eef2f8e952")
 		(property "Reference" "#PWR022"
-			(at 228.6 149.86 0)
+			(at 236.22 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6418,7 +6386,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 232.41 145.034 0)
+			(at 240.03 145.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6426,7 +6394,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 143.51 0)
+			(at 236.22 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6435,7 +6403,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 143.51 0)
+			(at 236.22 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6444,7 +6412,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 143.51 0)
+			(at 236.22 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7179,7 +7147,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 228.6 139.7 0)
+		(at 236.22 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7187,7 +7155,7 @@
 		(dnp no)
 		(uuid "f4bcfe29-1cf3-49d7-adda-6cb49155e7fb")
 		(property "Reference" "C5"
-			(at 232.41 138.4299 0)
+			(at 240.03 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7196,7 +7164,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 232.41 140.9699 0)
+			(at 240.03 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7205,7 +7173,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 229.5652 143.51 0)
+			(at 237.1852 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7214,7 +7182,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 139.7 0)
+			(at 236.22 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7223,7 +7191,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 228.6 139.7 0)
+			(at 236.22 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)

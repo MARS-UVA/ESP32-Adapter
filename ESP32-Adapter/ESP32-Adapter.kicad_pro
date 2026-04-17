@@ -504,7 +504,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "v3.0_Gerbers/",
+      "plot": "/Users/carlosgiron/Documents/MARS PCBs/ESP32-Adapter/ESP32-Adapter/v4.0_Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "3D-models/ESP32-Adapter.step",
