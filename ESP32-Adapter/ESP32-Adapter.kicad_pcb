@@ -89,7 +89,7 @@
 			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
@@ -119,7 +119,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "/Users/carlosgiron/Documents/MARS PCBs/ESP32-Adapter/ESP32-Adapter/v4.0_Gerber/")
+			(outputdirectory "v4.0_Gerbers/")
 		)
 	)
 	(net 0 "")
@@ -16067,7 +16067,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "80.7796 mm"
+		(gr_text "3.1803 in"
 			(at 156.0209 75.43739 90)
 			(layer "User.1")
 			(uuid "e8ebaed5-e4e7-4a9e-b156-34b67c54c0b7")
